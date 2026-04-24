@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  ascendant-service:
+    build: .
+    container_name: fortune.app.py_api
+    network_mode: "host"
+    restart: always
+    env_file:
+      - .env
+    ports:
+      - "7102:7102"
+

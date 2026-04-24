@@ -1,0 +1,8 @@
+flask
+flatlib
+swisseph
+gTTS
+pyttsx3
+flask-cors
+rembg
+pillow
