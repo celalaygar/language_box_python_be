@@ -26,5 +26,5 @@ ENV FLASK_ENV=production
 EXPOSE 7102
 
 # Başlat
-CMD ["python", "Main.py"]
+CMD ["python", "main1.py"]
 
